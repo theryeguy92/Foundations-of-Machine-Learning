@@ -21,7 +21,7 @@ With these definitions, a matrix can be used to fully illustrate how the model c
 
 ## Accuracy
 ### Description
-In any emergancy situation, protocal is taken because it proved without a doubt, that it ensures the survivability. During the night of the sinking, where 67.5% of people perished, we are exploring the protocal off "Women and children are first", given the dire circumstances created with the ship's architects.
+In any emergancy situation, protocal is taken because it proved without a doubt, that it ensures the survivability. During the night of the sinking, where 67.5% of people perished, we are exploring the protocal of "Women and children are first", given the dire circumstances created with the ship's architects.
 
 ### Calculation
 ```
