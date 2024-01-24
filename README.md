@@ -2,7 +2,7 @@
 ## Background
 This project leverages the data that can be found on Kaggle's Titanic dataset which can be found in the link below. The overall goal of this model is to correctly predict if a passenger, given there class, gender, age, and other factors listed in the data dictionary, would survive the sinking.
 
-This model serves to illustrate the impact of the evacuation protocal of the sinking of the Titanic, and how it can be improved. Along with the impact of the shortage of lifeboats.
+This model serves to illustrate the impact of the evacuation protocal of the sinking of the Titanic, and the effect of "Women and Children First". Along with the impact of the shortage of lifeboats.
 
 Link: https://www.kaggle.com/competitions/titanic
 
@@ -31,7 +31,7 @@ With these definitions, a matrix can be used to fully illustrate how the model c
 
 ## Accuracy
 ### Description
-In any emergancy situation, protocol is taken because it proved without a doubt, that it ensures the survivability. During the night of the sinking, where 67.5% of people perished, we are exploring the protocal of "Women and children are first", given the dire circumstances created with the ship's architects.
+In any emergancy situation, protocol is taken because without a doubt, it ensures survivability. During the night of the sinking, where 67.5% of people perished, we are exploring the protocal of "Women and children are first", given the dire circumstances created with the ship's architects.
 
 ### Calculation
 ```
@@ -40,12 +40,15 @@ acc = (TP+TN) / (TP + TN + FP + FN)
 
 This model serves to correctly predict the survivability of passengers with the protocall implimented. With that said, attention will be paid to the False Positive rate, and False Negative. A description of the False Positive Rate along with the False Negative is given below.
 
-- False Positive Rate
+## False Positive Rate
+This is the worst case scenario of an inacurate model, leading to loss of life regardless of the protocol implimented. This will be captured when the model creates a "false positive" for an individual. Per the definition above, this takes into effect when the model predicts an individual will survive, but does not. What makes this case so grave is that regardless of protocol, this means that there is some outside factor that the protocol did not consider, and in result, a person perishes. 
+
 ```
 fpr = FP / (FP + TN)
 ```
+## False Negative Rate
+In this case, this serves as a positve for the model because this reflective of an individual who was expected to perish, does not. More importantly, given that this dataset identifies the relationships amongst the passengers. The False Negative bucket can serve as an investigation point as to why someone who was expected to perish, survived. Taking this into consideration, indeed this is a positive element (as it lowers cost as described below), it does mean the model was not as percise in a way.
 
-- False Negative Rate
 ```
 fnr = FN / (FP + TN)
 ```
@@ -53,7 +56,8 @@ fnr = FN / (FP + TN)
 ### Estimated Financial Impacts
 The Titanic distaster happened in 1912. In July of 1915, a settle ment totaling of $664,000 was paid among those survived. Adjusted for today's inflation, that is $20,166,271.68. Divided up among the survivors, which totals to $28,564.12.
 
-It is difficult to place a financial number, specifically for the Titanic due to the overall different economic circumstances during the 1910's. With that being said, to better understand the financial impacts. This project will be using the Costa Concorida sinking as reference.
+It is difficult to place a financial number, especially for the Titanic due to the overall different economic circumstances during the 1910's. With that being said, to better understand the financial impacts. This project will be using the Costa Concorida sinking as reference.
+
 Most of compensation was settled privatly. One settlement was $105,000 due to seeking compensation for PTSD and other long-term conditions. For survivors, this number will be used for compensation. 
 
 For family members of the deceased, on average 1.1 Million was paid. 
@@ -70,7 +74,7 @@ With that being said, the Estimated Financial Impacts can be found below:
 
 From the research above, the company is loosing money either way when a cruse ship sinks. Regardless, there will be legal, and compensation cost. With that said, the best case scenario is having all passengers survive the ship, lowering compensation cost. 
 
-A description for the False Positive and False Negative rate have been given above. For further clarification for the reader, below are simple definitions that are being used in this project.
+A description for the False Positive and False Negative rate have been given above. For further clarification, below are simple definitions that are being used in this project.
 
 - True Positive: A passenger who survived.
   - This would be the best-case scenario for all groups involved. Indeed there is a cost associated, however ensuring the survivability will leave less financial and legal headache to deal with the distaster.
