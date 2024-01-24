@@ -15,8 +15,6 @@ Given that this is a classification model, the first step to take is what consti
 With these definitions, a matrix can be used to fully illustrate how the model can acurately, and in accurately make predicitions.
 
 
-- Matrix Quadrants:
-
 ![alt text](https://github.com/TheLeveyBreaks/Foundations-of-Machine-Learning/blob/main/Matrix.JPG)
 
 ## Accuracy
