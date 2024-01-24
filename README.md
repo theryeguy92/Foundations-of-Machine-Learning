@@ -24,20 +24,18 @@ With these definitions, a matrix can be used to fully illustrate how the model c
 In any emergancy situation, protocal is taken because it proved without a doubt, that it ensures the survivability. During the night of the sinking, where 67.5% of people perished, we are exploring the protocal off "Women and children are first", given the dire circumstances created with the ship's architects.
 
 ### Calculation
-'''python
+'''
 acc = (TP+TN) / (TP + TN + FP + FN)
 '''
 
 This model serves to correctly predict the survivability of passengers with the protocall implimented. With that said, attention will be paid to the False Positive rate, and False Negative. A description of the False Positive Rate along with the False Negative is given below.
 
 - False Positive Rate
-'''python
-# False Positive Rate
+'''
 fpr = FP / (FP + TN)
 '''
 - 
-'''python
-# False Negative Rate
+'''
 fnr = FN / (FP + TN)
 '''
 
