@@ -14,7 +14,7 @@ Given that this is a classification model, the first step to take is what consti
   - Possitive Class: The passenger does survive
   - Negative Class: The passenger does NOT survive
 
-With these definitions, a matrix can be used to fully illustrate how the model can acurately, and in accurately make predicitions.
+With these definitions, a matrix can be used to fully illustrate how the model can acurately, and inaccurately make predicitions.
 
 
 ![alt text](https://github.com/TheLeveyBreaks/Foundations-of-Machine-Learning/blob/main/Matrix.JPG)
