@@ -1,0 +1,11 @@
+﻿Column Name,Definition,Key,Notes
+survival,survival of passengers,"0 = No, 1 = Yes",
+pclass,Ticket Class,"1 = 1st, 2 = 2nd, 3 = 3rd","Proxy for socio-economic status (1st = Upper, 2nd = Middle, 3rd = Lower)"
+sex,Sex/gender,,
+Age,Age in years,,Age is fractional if less < 1
+sibsp,Number of siblings/spouses aboard,,"Catagorized as: brother, sister, stepbrother, stepsister"
+parch,Number of partents/children aboard,,"Catagorized as: Parent = Mother, Father | Child = daughter, son, stepdaughter, stepson. Children traveling with a nanny results in parch = 0."
+ticket,Ticket Number,,
+fare,Passenger fare,,
+cabin,Cabin Number,,
+embarked,Port of Embarkment,"C = Cherbourg, Q = Queenstown, S = Southampton",
