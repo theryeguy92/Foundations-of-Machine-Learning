@@ -76,7 +76,7 @@ A description for the False Positive and False Negative rate have been given abo
   - This would be the best-case scenario for all groups involved. Indeed there is a cost associated, however ensuring the survivability will leave less financial and legal headache to deal with the distaster.
 - False Postiive: A passenger who was expected to survive, but does not.
   - As described above, is the worst case scenario (given that this results in a loss of life). Even if the loss of life cannot be quantified, given the settlements of the Costa Concordia, the $1.1Million will be used. 
-- True Negative: A passenger who perrished.
+- True Negative: A passenger who perished.
   - This is reflective of a passenger who is expected to perish. Of course, this outcome is not desired by anyone. However, in this case, the model is looking at the effectiveness of the "Women and Children First" for the evacuation protocol. With that said, the True Negative can serve as the bottom line cost of this protocal.
 - False Negative: A passenger who was expected to perish, but survived.
   - Indeed this is a desired outcome as this results in the survival of a passenger. Again, this metric will be closely looked at as the False Negative encompasses parties that were outside the "Women and Children First" protocol. 
