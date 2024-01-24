@@ -47,14 +47,14 @@ This is the worst case scenario of an inacurate model, leading to loss of life r
 fpr = FP / (FP + TN)
 ```
 ## False Negative Rate
-In this case, this serves as a positve for the model because this reflective of an individual who was expected to perish, does not. More importantly, given that this dataset identifies the relationships amongst the passengers. The False Negative bucket can serve as an investigation point as to why someone who was expected to perish, survived. Taking this into consideration, indeed this is a positive element (as it lowers cost as described below), it does mean the model was not as percise in a way.
+In this case, this serves as a positve for the model because this is reflective of an individual who was expected to perish, does not. More importantly, given that this dataset identifies the relationships amongst the passengers. The False Negative bucket can serve as an investigation point as to why someone who was expected to perish, survived. Taking this into consideration, indeed this is a positive element (as it lowers cost as described below), it does mean the model was not as percise in a way.
 
 ```
 fnr = FN / (FP + TN)
 ```
 
 ### Estimated Financial Impacts
-The Titanic distaster happened in 1912. In July of 1915, a settle ment totaling of $664,000 was paid among those survived. Adjusted for today's inflation, that is $20,166,271.68. Divided up among the survivors, which totals to $28,564.12.
+The Titanic distaster happened in 1912. In July of 1915, a settlement totaling of $664,000 was paid among those survived. Adjusted for today's inflation, that is $20,166,271.68. Divided up among the survivors, which totals to $28,564.12.
 
 It is difficult to place a financial number, especially for the Titanic due to the overall different economic circumstances during the 1910's. With that being said, to better understand the financial impacts. This project will be using the Costa Concorida sinking as reference.
 
@@ -78,7 +78,7 @@ A description for the False Positive and False Negative rate have been given abo
 
 - True Positive: A passenger who survived.
   - This would be the best-case scenario for all groups involved. Indeed there is a cost associated, however ensuring the survivability will leave less financial and legal headache to deal with the distaster.
-- False Postiive: A passenger who was expected to survive, but does not.
+- False Postive: A passenger who was expected to survive, but does not.
   - As described above, is the worst case scenario (given that this results in a loss of life). Even if the loss of life cannot be quantified, given the settlements of the Costa Concordia, the $1.1Million will be used. 
 - True Negative: A passenger who perished.
   - This is reflective of a passenger who is expected to perish. Of course, this outcome is not desired by anyone. However, in this case, the model is looking at the effectiveness of the "Women and Children First" for the evacuation protocol. With that said, the True Negative can serve as the bottom line cost of this protocal.
