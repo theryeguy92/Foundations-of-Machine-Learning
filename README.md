@@ -19,6 +19,16 @@ With these definitions, a matrix can be used to fully illustrate how the model c
 
 ![alt text](https://github.com/TheLeveyBreaks/Foundations-of-Machine-Learning/blob/main/Matrix.JPG)
 
+- Matrix Quadrants:
+  - True Positive (TP): The passenger predicted to survive, does survive.
+  - True Negative (TN): The passenger predicted to perish, does perish.
+  - False Positive (FP): The passenger predicted to survive, perishes.
+  - False Negative (FN): The passenger predicted to perish, does NOT Perish.
+
+
+
+
+
 ## Accuracy
 ### Description
 In any emergancy situation, protocal is taken because it proved without a doubt, that it ensures the survivability. During the night of the sinking, where 67.5% of people perished, we are exploring the protocal of "Women and children are first", given the dire circumstances created with the ship's architects.
