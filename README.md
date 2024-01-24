@@ -16,6 +16,7 @@ With these definitions, a matrix can be used to fully illustrate how the model c
 
 
 - Matrix Quadrants:
+
 ![alt text](https://github.com/TheLeveyBreaks/Foundations-of-Machine-Learning/blob/main/Matrix.JPG)
 
 ## Accuracy
