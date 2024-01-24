@@ -20,10 +20,10 @@ With these definitions, a matrix can be used to fully illustrate how the model c
 ![alt text](https://github.com/TheLeveyBreaks/Foundations-of-Machine-Learning/blob/main/Matrix.JPG)
 
 - Matrix Quadrants:
-  - True Positive (TP): The passenger predicted to survive, does survive.
-  - True Negative (TN): The passenger predicted to perish, does perish.
-  - False Positive (FP): The passenger predicted to survive, perishes.
-  - False Negative (FN): The passenger predicted to perish, does NOT Perish.
+  - **True Positive (TP)**: The passenger predicted to survive, does survive.
+  - **True Negative (TN)**: The passenger predicted to perish, does perish.
+  - **False Positive (FP)**: The passenger predicted to survive, perishes.
+  - **False Negative (FN)**: The passenger predicted to perish, does NOT Perish.
 
 
 
