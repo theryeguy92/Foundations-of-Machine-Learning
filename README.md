@@ -1,4 +1,4 @@
-# Titanic Survivability
+# Titanic Survivability 
 ## Background
 This project leverages the data that can be found on Kaggle's Titanic dataset which can be found in the link below. The overall goal of this model is to correctly predict if a passenger, given there class, gender, age, and other factors listed in the data dictionary, would survive the sinking.
 
