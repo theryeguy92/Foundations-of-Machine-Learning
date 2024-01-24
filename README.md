@@ -8,7 +8,7 @@ Link: https://www.kaggle.com/competitions/titanic
 
 ## Metrics
 ### Metric Inputs
-Given that this is a classification model, the first step to take is what constitutes a possitive, and negative class in the binary binary classification matrix.
+Given that this is a classification model, the first step to take is what constitutes a possitive, and negative class in the binary classification matrix.
 
 - Model Classes:
   - Possitive Class: The passenger does survive
