@@ -4,6 +4,8 @@ This project leverages the data that can be found on Kaggle's Titanic dataset wh
 
 This model serves to illustrate the impact of the evacuation protocal of the sinking of the Titanic, and how it can be improved. Along with the impact of the shortage of lifeboats.
 
+Link: https://www.kaggle.com/competitions/titanic
+
 ## Metrics
 ### Metric Inputs
 Given that this is a classification model, the first step to take is what constitutes a possitive, and negative class in the binary binary classification matrix.
