@@ -1,4 +1,4 @@
-# Titanic Survivability
+# Titanic Survivability 
 ## Background
 This project leverages the data that can be found on Kaggle's Titanic dataset which can be found in the link below. The overall goal of this model is to correctly predict if a passenger, given there class, gender, age, and other factors listed in the data dictionary, would survive the sinking.
 
@@ -54,13 +54,13 @@ fnr = FN / (FP + TN)
 ```
 
 ### Estimated Financial Impacts
-The Titanic distaster happened in 1912. In July of 1915, a settlement totaling of $664,000 was paid among those survived. Adjusted for today's inflation, that is $20,166,271.68. Divided up among the survivors, which totals to $28,564.12.
+The Titanic distaster happened in 1912. In July of 1915, a settlement totaling of $664,000 was paid among those survived. Adjusted for today's inflation, that is $20,166,271.68.
+Even if $20 Million is a large sum, for having a casualty rate of over 65% still seems on the lower end. Compared to the recent sinking of The Costa Concordia, where the total payout was about $91 million dollars, $20 million falls short of today's standards. Especially since today's cruise ships are bigger, and hold more capacity than the Titanic. 
+With that said, this project will be using the Costa Concorida sinking as reference for the financial cost.
 
-It is difficult to place a financial number, especially for the Titanic due to the overall different economic circumstances during the 1910's. With that being said, to better understand the financial impacts. This project will be using the Costa Concorida sinking as reference.
+For the Costa Concordia, the majority of settlements were settled privatly. However, one settlement was $105,000 due to seeking compensation for PTSD and other long-term conditions. Given that these settlements were on par with eachother, seeking compensation for damages, $105,000 will be used as the total compensation for survivors. 
 
-Most of compensation was settled privatly. One settlement was $105,000 due to seeking compensation for PTSD and other long-term conditions. For survivors, this number will be used for compensation. 
-
-For family members of the deceased, on average 1.1 Million was paid. 
+For family members of the deceased, $1.1 Million was paid out on average. 
 
 With that being said, the Estimated Financial Impacts can be found below:
 
